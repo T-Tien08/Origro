@@ -32,6 +32,18 @@
       isolation: isolate;
     }
   </style>
+<style id="origro-compact-form">
+/* ORIGRO: compact full-width HubSpot form section */
+.signup { padding: 58px 5% 66px; background:#f3ead7; }
+.signup .signup-inner { max-width: 940px; margin: 0 auto; display: block; }
+.signup .form-card { width: 100%; padding: 36px clamp(22px, 5vw, 66px) 42px; background:#fffdf8; border-radius:28px; }
+.signup #hubspot-form { width:100%; min-height:0; }
+.signup .hs-form-frame { width:100%; }
+@media(max-width:700px) {
+  .signup { padding: 38px 4% 48px; }
+  .signup .form-card { padding: 24px 16px 30px; border-radius:20px; }
+}
+</style>
 </head>
 
 <body>
@@ -164,34 +176,10 @@
     </section>
     <section class="signup" id="signup">
       <div class="signup-inner">
-        <div class="signup-copy">
-          <div class="section-kicker">05 / KẾT NỐI VỚI ORIGRO</div>
-          <h2>Cùng ORIGRO<br><em>gieo điều tốt!</em></h2>
-          <p>Đăng ký để nhận thông tin về ba dòng sản phẩm, cập nhật hoạt động và các chương trình giới thiệu sản phẩm
-            khi có.</p>
-          <div class="signup-note">✳ Chỉ gửi thông tin khi bạn đồng ý đăng ký.</div>
-        </div>
         <div class="form-card">
-          <div class="form-heading"><span>✳</span>
-            <h3>Đăng ký nhận thông tin</h3>
-            <p>Điền thông tin bên dưới để kết nối với ORIGRO.</p>
-          </div>
+          <div class="section-kicker" style="text-align:center;margin-bottom:20px">05 / KẾT NỐI VỚI ORIGRO</div>
           <div id="hubspot-form">
-            <div class="form-placeholder">
-              <div class="placeholder-line"><label>Họ và tên</label>
-                <div>Nhập họ và tên của bạn</div>
-              </div>
-              <div class="placeholder-line"><label>Email</label>
-                <div>email@example.com</div>
-              </div>
-              <div class="placeholder-line"><label>Số điện thoại (tùy chọn)</label>
-                <div>Nhập số điện thoại</div>
-              </div>
-              <div class="placeholder-check">☐ Tôi đồng ý nhận thông tin từ ORIGRO.</div>
-              <div class="placeholder-button">Kết nối với ORIGRO ↗</div>
-              <p class="placeholder-alert">Bản xem trước. Quản trị viên cần kết nối HubSpot để form nhận dữ liệu thật.
-              </p>
-            </div>
+            <div class="hs-form-frame" data-region="na2" data-form-id="909a70b8-2628-4afa-a75e-1b60d7280a60" data-portal-id="247859323"></div>
           </div>
         </div>
       </div>
@@ -208,7 +196,7 @@
     <div class="footer-bottom"><span>© 2026 ORIGRO · Dự án học tập</span><span>NUÔI DƯỠNG ĐIỀU TỐT, VUI KHỎE MỖI
         NGÀY</span></div>
   </footer>
-  <script src="config.js"></script>
+  <script src="https://js-na2.hsforms.net/forms/embed/247859323.js" defer></script>
   <script src="script.js"></script>
 </body>
 
